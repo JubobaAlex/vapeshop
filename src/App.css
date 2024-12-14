@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.headers {
+    border: 0.5px solid black;
+    background-color: rgb(65, 65, 65);
+    overflow: hidden;
+    display: flex;
+}
+.headers a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+.headers :hover {
+    background-color: white;
+    color:black
+}

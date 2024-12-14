@@ -1,0 +1,42 @@
+
+.slick-slide {
+  margin-left: 0px; /* Пример отступа между слайдами */
+  
+}
+  
+  .slick-prev:before, .slick-next:before {
+    color: black; /* Цвет стрелок навигации */
+  }
+  
+  .slick-prev {
+    left: -25px; /* Положение предыдущей стрелки */
+  }
+  
+  .slick-next {
+    right: -25px; /* Положение следующей стрелки */
+  }
+  
+  .slick-dots li button:before {
+    color: gray; /* Цвет точек */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: black; /* Цвет активной точки */
+  }
+  .imgslider {
+    border-radius: 14px;
+    border: 1px solid black;
+    float:left;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .textSlider {
+    text-align: center;
+  }
+  .SliderConteinerPasito b {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+ 

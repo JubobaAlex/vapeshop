@@ -1,35 +1,7 @@
-.slider {
-    position: relative;
-    width: 600px;
-    overflow: hidden;
-    margin-left: 15px;
-  }
-  .slickSlide {
-    padding: 20px;
-  }
-  img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-  .buttons {
-    position: absolute;
-    top: 50%;
-    width: 100%;
+
+  .footerDiv{
     display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
+    justify-content: center;
+    border-top:0.3px solid black ;
   }
-  
-  button {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  button:hover {
-    background-color: rgba(255, 255, 255, 1);
-  }
-  
+    

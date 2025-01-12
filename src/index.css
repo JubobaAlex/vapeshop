@@ -39,4 +39,90 @@
     margin-left: 5px;
     margin-right: 5px;
   }
- 
+  .SliderConteinerPasito {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 0.5px solid black;
+    margin-bottom: 5px;
+  }
+  .SliderConteinerKnight80{
+    border-top: 0.5px solid black;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .imgsliderKn {
+    border-radius: 14px;
+    border: 1px solid black;
+    float:right;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  
+  
+  .popUp_div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popUp_content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .confirm-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-button:hover {
+    background: darkblue;
+  }
+  
+  .popUp_button {
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .popUp_button:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+  }
+  .btn_popup_div{
+    display: flex;
+    justify-content: center;
+  }

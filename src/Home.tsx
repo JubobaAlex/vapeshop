@@ -88,54 +88,6 @@ const Home = () => {
       <br />
       <Popup />
       </div>
-        <br />
-        <div className='SliderConteinerKnight80'>
-          <Slider {...settings} >
-        <div>
-          <h2 className='textSlider'><img className='imgsliderKn' src="/5.jpg" width={860} height={480} />Knight 80</h2>
-          <b>
-          510 Drip tip - 510-й мундштук;<br />
-Air-flow channel- регулировка воздушного потока на испаритель;<br />
-buttoon (+/-) - кнопки управления (+ / -);<br />
-Type-C - порт заряда Type-C;<br />
-0,96" OLED screen - цветной дисплей 0,96 дюйма;<br />
-Fire button - кнопка включения;<br />
-Rubber plug - заглушка заправочного отверстия;<br />
-Cartridge - Картридж;<br />
-Magnet - Магнит<br />
-18650 battery - аккумулятор типоразмера 18650 (приобретается отдельно)<br />
-Battery Cover - крышка аккумуляторного отсека.
-          </b>
-          
-        </div>
-        <div>
-        <h2 className='textSlider'><img className='imgsliderKn' src="/6.jpg" width={860} height={480} />Knight 80</h2>
-        <b>
-        Размер: 90 мм x 45 мм x 27 мм;<br />
-Емкость картриджа: 4 мл.<br />
-Выходная мощность: 1-80 Вт;<br />
-Аккумулятор: 18650;<br />
-Материал: цинковый сплав;<br />
-Поверхность: гальваника + CPR накладка;<br />
-Коэффициент конверсии: 95%;<br />
-Режим вывода: VW, DVW, байпас (лучше всего 0,1-3,0 Ом);<br />
-Режим TC: NI, TI, SS316, TCR (лучший 0,05-2,0 Ом);<br />
-Диапазон температур: 100-300 ℃ / 200-600 ℉;<br />
-Экран: 0,96 OLED;<br />
-Зарядка: 5 В 1 А;<br />
-Порт зарядки: Type-C.
-        </b>
-        </div>
-        <div>
-        <h2 className='textSlider'><img className='imgsliderKn' src="/7.jpg" width={860} height={480} />Knight 80</h2>
-        <b>Технология защиты от детей, а именно от случайного доступа к устройству.
-        Наличии магнитного коннектора и специальной защелки, делают устройство более безопасным.</b>
-        </div>
-          </Slider>
-          <br />
-          <Popup  />
-        </div>
-        <footer><div className='footerDiv'><b className='prava'>Все права защищены</b></div></footer>
     </div>
   );
 };
